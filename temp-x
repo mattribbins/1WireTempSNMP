@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" = "-g" ]
+then
+echo .1.3.6.1.2.1.25.1.8.1
+echo gauge
+python /usr/local/bin/temp-get.py -i 00000881a0ff
+fi
+exit 0
